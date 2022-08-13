@@ -1,7 +1,7 @@
 ﻿// принимает на вход координаты двух точек и находит расстояние между ними в 2D пространстве
 Console.Clear();
 Console.WriteLine("введите координаты точки A: введите xa");
-double xa = Convert.ToDouble(Console.ReadLine()); // double - тип переменной для записи значений с запятой
+double xa = Convert.ToDouble(Console.ReadLine());        // double - тип переменной для записи значений с запятой
 Console.WriteLine("введите ya");
 double ya = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("введите координаты точки B: введите xb");
