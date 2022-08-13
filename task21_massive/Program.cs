@@ -10,6 +10,6 @@ double yb = Convert.ToDouble(Console.ReadLine());
 double[] arrayA = {xa, ya};
 double[] arrayB = {xb, yb};
 
-double distance = Math.Sqrt(Math.Pow(arrayA - arrayA, 2));
+double distance = Math.Sqrt(Math.Pow(arrayB[0] - arrayA[0], 2) + Math.Pow(arrayB[0] - arrayA[0], 2));
 
 Console.WriteLine($"Расстояние между точками равно {distance}");
